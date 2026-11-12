@@ -1,0 +1,565 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAIR SALON | Modern Luxury Hair Studio & Professional Styling</title>
+  <meta name="description" content="Welcome to HAIR SALON. Modern luxury hair styling, precision cuts, balayage, hair spa, keratin treatments, and men's grooming in Hyderabad.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Demo Bar -->
+  <div class="demo-badge-bar">
+    <span>DEMONSTRATION WEBSITE</span> &bull; Illustrative sample showcase for HAIR SALON &bull; Prices and bookings are for demonstration only
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link" aria-label="HAIR SALON Home">
+        <span class="logo-text">HAIR SALON</span>
+        <span class="logo-sub">Luxury Hair Studio</span>
+      </a>
+
+            <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item-dropdown">
+            <a href="services.html" class="nav-link nav-dropdown-toggle">
+              Services
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="services.html" class="nav-dropdown-link">All Services</a></li>
+              <li><a href="haircut-styling.html" class="nav-dropdown-link">Haircut &amp; Styling</a></li>
+              <li><a href="hair-colouring.html" class="nav-dropdown-link">Hair Colouring</a></li>
+              <li><a href="hair-treatments.html" class="nav-dropdown-link">Hair Treatments</a></li>
+            </ul>
+          </li>
+          <li><a href="packages-gallery.html" class="nav-link">Packages &amp; Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="contact.html" class="btn btn-primary btn-sm">Book an Appointment</a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="heroHeadline">
+      <div class="container hero-grid">
+        <div class="hero-content fade-in-scroll">
+          <span class="eyebrow">Haute Coiffure &bull; Luxury Salon</span>
+          <h1 id="heroHeadline" class="hero-headline">
+            Your Hair. <br>Your Style. <br><span>Your Confidence.</span>
+          </h1>
+          <p class="hero-description">
+            Experience contemporary hairstyling, couture hair colouring, and rejuvenating spa treatments crafted with artistry in a serene, modern luxury atmosphere.
+          </p>
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary">Book an Appointment</a>
+            <a href="services.html" class="btn btn-secondary">Explore Services</a>
+          </div>
+          <div class="hero-highlights">
+            <div class="hero-highlight-item">
+              <strong>100%</strong>
+              <span>Bespoke Styling</span>
+            </div>
+            <div class="hero-highlight-item">
+              <strong>Premium</strong>
+              <span>Hair Care Formulations</span>
+            </div>
+            <div class="hero-highlight-item">
+              <strong>Modern</strong>
+              <span>Contemporary Ambience</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual fade-in-scroll">
+          <!-- REUSABLE PLACEHOLDER 1: hair-salon-hero -->
+          <!-- To replace with real image file later: <img src="assets/images/hair-salon-hero.jpg" alt="HAIR SALON Stylist with client" class="hero-image"> -->
+          <div class="img-placeholder img-hair-salon-hero aspect-tall" role="img" aria-label="HAIR SALON hero image placeholder">
+            <svg class="img-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="#c5a059" stroke-width="1.5">
+              <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/>
+              <line x1="20" y1="4" x2="8.12" y2="15.88"/>
+              <line x1="14.47" y1="14.48" x2="20" y2="20"/>
+              <line x1="8.12" y1="8.12" x2="12" y2="12"/>
+            </svg>
+            <div class="img-placeholder-title">HAIR SALON Signature Studio</div>
+            <span class="img-placeholder-badge">Placeholder: hair-salon-hero</span>
+            <div class="img-placeholder-meta">Stylish hair salon interior &amp; professional hairstylist</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-2" style="align-items: center;">
+          <div class="fade-in-scroll">
+            <!-- REUSABLE PLACEHOLDER 8: hair-stylist-professional -->
+            <!-- To replace with real image file later: <img src="assets/images/hair-stylist-professional.jpg" alt="Professional hairstylist at HAIR SALON" class="rounded-image"> -->
+            <div class="img-placeholder img-hair-stylist-professional" role="img" aria-label="Professional Hairstylist placeholder">
+              <svg class="img-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="#c5a059" stroke-width="1.5">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+              </svg>
+              <div class="img-placeholder-title">Artistry in Every Strand</div>
+              <span class="img-placeholder-badge">Placeholder: hair-stylist-professional</span>
+              <div class="img-placeholder-meta">Professional hairstylist performing a hair service</div>
+            </div>
+          </div>
+
+          <div class="fade-in-scroll">
+            <span class="eyebrow">Welcome to HAIR SALON</span>
+            <h2>Where Modern Elegance Meets Masterful Hair Care</h2>
+            <p>
+              At <strong>HAIR SALON</strong>, we believe hair is the ultimate canvas of personal expression. Our boutique environment brings together refined aesthetics, tailored consultations, and gentle technique to ensure every client leaves feeling renewed and confident.
+            </p>
+            <p>
+              From subtle precision trims to multi-dimensional balayage and restorative botanical hair spas, our approach is centered on personal silhouette analysis, hair texture health, and contemporary style.
+            </p>
+            <div style="margin-top: 2rem;">
+              <a href="about.html" class="btn btn-dark">Our Salon Philosophy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Services Section -->
+    <section class="section section-bg-light">
+      <div class="container">
+        <div class="section-header fade-in-scroll">
+          <span class="eyebrow">Curated Menu</span>
+          <h2>Featured Hair Services</h2>
+          <p>Carefully designed treatments combining technical precision, premium hair care formulations, and personalized styling.</p>
+        </div>
+
+        <div class="grid-3">
+          <!-- Service Card 1 -->
+          <div class="service-card fade-in-scroll">
+            <div>
+              <span class="service-card-tag">Precision Cut</span>
+              <h3 class="service-card-title">Haircut &amp; Styling</h3>
+              <p class="service-card-desc">Bespoke face-framing cuts, precision layers, and personalized blow-dry finish tailored to hair density and face structure.</p>
+            </div>
+            <div class="service-card-footer">
+              <div>
+                <span class="service-price">&#8377;500</span>
+                <span class="service-price-note">Starting illustrative price</span>
+              </div>
+              <a href="haircut-styling.html" class="btn btn-secondary btn-sm">Explore</a>
+            </div>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="service-card fade-in-scroll">
+            <div>
+              <span class="service-card-tag">Couture Colour</span>
+              <h3 class="service-card-title">Hair Colouring</h3>
+              <p class="service-card-desc">Global colour, balayage, soft highlights, and tone harmonization formulated to enhance natural luminosity.</p>
+            </div>
+            <div class="service-card-footer">
+              <div>
+                <span class="service-price">&#8377;2,499</span>
+                <span class="service-price-note">Starting illustrative price</span>
+              </div>
+              <a href="hair-colouring.html" class="btn btn-secondary btn-sm">Explore</a>
+            </div>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="service-card fade-in-scroll">
+            <div>
+              <span class="service-card-tag">Rejuvenation</span>
+              <h3 class="service-card-title">Hair Spa</h3>
+              <p class="service-card-desc">Intense moisture infusion and relaxing scalp massage to restore suppleness, smoothness, and deep hydration.</p>
+            </div>
+            <div class="service-card-footer">
+              <div>
+                <span class="service-price">&#8377;999</span>
+                <span class="service-price-note">Starting illustrative price</span>
+              </div>
+              <a href="hair-treatments.html" class="btn btn-secondary btn-sm">Explore</a>
+            </div>
+          </div>
+
+          <!-- Service Card 4 -->
+          <div class="service-card fade-in-scroll">
+            <div>
+              <span class="service-card-tag">Texture Control</span>
+              <h3 class="service-card-title">Hair Smoothening</h3>
+              <p class="service-card-desc">Tame frizz and unruly volume with silk-protein enriched smoothening treatments for effortless daily manageability.</p>
+            </div>
+            <div class="service-card-footer">
+              <div>
+                <span class="service-price">&#8377;3,999</span>
+                <span class="service-price-note">Starting illustrative price</span>
+              </div>
+              <a href="hair-treatments.html" class="btn btn-secondary btn-sm">Explore</a>
+            </div>
+          </div>
+
+          <!-- Service Card 5 -->
+          <div class="service-card fade-in-scroll">
+            <div>
+              <span class="service-card-tag">Men's Care</span>
+              <h3 class="service-card-title">Men's Grooming</h3>
+              <p class="service-card-desc">Clean fades, classic scissoring, beard contouring, and scalp stimulation crafted for the modern gentleman.</p>
+            </div>
+            <div class="service-card-footer">
+              <div>
+                <span class="service-price">&#8377;300</span>
+                <span class="service-price-note">Starting illustrative price</span>
+              </div>
+              <a href="services.html" class="btn btn-secondary btn-sm">Explore</a>
+            </div>
+          </div>
+
+          <!-- Service Card 6 -->
+          <div class="service-card fade-in-scroll">
+            <div>
+              <span class="service-card-tag">Intensive Repair</span>
+              <h3 class="service-card-title">Hair Treatments</h3>
+              <p class="service-card-desc">Advanced bond repair, keratin therapy, and deep nutritional care targeted at heat and environmental fatigue.</p>
+            </div>
+            <div class="service-card-footer">
+              <div>
+                <span class="service-price">&#8377;799</span>
+                <span class="service-price-note">Starting illustrative price</span>
+              </div>
+              <a href="hair-treatments.html" class="btn btn-secondary btn-sm">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="services.html" class="btn btn-primary">View Full Service Catalogue</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header fade-in-scroll">
+          <span class="eyebrow">The HAIR SALON Standard</span>
+          <h2>Why Choose Our Studio</h2>
+          <p>Our commitment to understated luxury, hygienic rituals, and individual attention sets our salon experience apart.</p>
+        </div>
+
+        <div class="grid-4">
+          <div class="feature-card fade-in-scroll">
+            <div class="feature-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <h3>Expert Stylists</h3>
+            <p>Trained in classic technique and modern editorial trends for haircuts that flatter every client.</p>
+          </div>
+
+          <div class="feature-card fade-in-scroll">
+            <div class="feature-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3>Quality Formulations</h3>
+            <p>Carefully selected gentle creams, ammonia-conscious pigments, and restorative hair oils.</p>
+          </div>
+
+          <div class="feature-card fade-in-scroll">
+            <div class="feature-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Hygiene First</h3>
+            <p>Strictly sanitized styling tools, single-use capes, and spotless private stations for every guest.</p>
+          </div>
+
+          <div class="feature-card fade-in-scroll">
+            <div class="feature-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Transparent Pricing</h3>
+            <p>Honest illustrative menu rates with zero hidden fees and attentive consultation beforehand.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual Salon Interior Showcase -->
+    <section class="section section-bg-dark">
+      <div class="container">
+        <div class="grid-2" style="align-items: center;">
+          <div class="fade-in-scroll">
+            <span class="eyebrow">Atmosphere &bull; Interior</span>
+            <h2>An Oasis of Serenity and Minimalist Luxury</h2>
+            <p>
+              Step into an environment sculpted with warm champagne metals, soft ambient lighting, and bespoke ergonomic styling chairs. We believe that your time in the salon should be an unhurried, restorative pause in your day.
+            </p>
+            <p>
+              Each styling station is designed with ample personal breathing space, ensuring privacy, relaxation, and tailored attention during your hair transformation.
+            </p>
+            <div style="margin-top: 2rem;">
+              <a href="packages-gallery.html" class="btn btn-primary">Browse Gallery &amp; Ambience</a>
+            </div>
+          </div>
+
+          <div class="fade-in-scroll">
+            <!-- REUSABLE PLACEHOLDER 7: hair-salon-interior -->
+            <!-- To replace with real image file later: <img src="assets/images/hair-salon-interior.jpg" alt="HAIR SALON mirrors and workstations" class="rounded-image"> -->
+            <div class="img-placeholder img-hair-salon-interior aspect-tall" role="img" aria-label="HAIR SALON Interior placeholder">
+              <svg class="img-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="#c5a059" stroke-width="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <line x1="3" y1="9" x2="21" y2="9"/>
+                <line x1="9" y1="21" x2="9" y2="9"/>
+              </svg>
+              <div class="img-placeholder-title">Refined Salon Ambience</div>
+              <span class="img-placeholder-badge">Placeholder: hair-salon-interior</span>
+              <div class="img-placeholder-meta">Premium salon interior, mirrors, styling chairs &amp; workstations</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Packages Preview -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header fade-in-scroll">
+          <span class="eyebrow">Value Bundles</span>
+          <h2>Featured Salon Packages</h2>
+          <p>Experience complete head-to-toe care with our curated multi-service combinations.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="package-card fade-in-scroll">
+            <h3 class="package-name">Hair Spa Package</h3>
+            <div class="package-price">&#8377;1,499</div>
+            <span class="package-demo-label">Illustrative demonstration price</span>
+            <p class="package-desc">Deep hydration ritual paired with an invigorating scalp massage and blowout.</p>
+            <ul class="package-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Hydrating Hair Spa Treatment
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Relaxing Scalp Massage
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Classic Blow Dry &amp; Setting
+              </li>
+            </ul>
+            <a href="contact.html?service=hair-spa-package" class="btn btn-secondary btn-sm">Book Package</a>
+          </div>
+
+          <div class="package-card featured fade-in-scroll">
+            <span class="package-badge">Most Popular</span>
+            <h3 class="package-name">Hair Colour Package</h3>
+            <div class="package-price">&#8377;3,499</div>
+            <span class="package-demo-label">Illustrative demonstration price</span>
+            <p class="package-desc">All-in-one colour renewal including gentle wash, toner balancing, and style finish.</p>
+            <ul class="package-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Global Hair Colour / Highlights
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Colour-Lock Conditioning Mask
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Precision Styling &amp; Finishing
+              </li>
+            </ul>
+            <a href="contact.html?service=hair-colour-package" class="btn btn-primary btn-sm">Book Package</a>
+          </div>
+
+          <div class="package-card fade-in-scroll">
+            <h3 class="package-name">Men's Grooming Package</h3>
+            <div class="package-price">&#8377;699</div>
+            <span class="package-demo-label">Illustrative demonstration price</span>
+            <p class="package-desc">Complete gentleman's haircut, beard sculpt, and invigorating hair wash.</p>
+            <ul class="package-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Precision Men's Haircut
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Beard Styling &amp; Contouring
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Refreshing Scalp Wash
+              </li>
+            </ul>
+            <a href="contact.html?service=mens-grooming-package" class="btn btn-secondary btn-sm">Book Package</a>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="packages-gallery.html" class="btn btn-dark">View All 8 Salon Packages</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials (Clearly labeled demo reviews) -->
+    <section class="section section-bg-light">
+      <div class="container">
+        <div class="section-header fade-in-scroll">
+          <span class="eyebrow">Client Feedback</span>
+          <h2>Guest Experiences</h2>
+          <p>Read sample feedback illustrating the guest satisfaction ethos of HAIR SALON.</p>
+          <span class="demo-review-notice">&bull; Illustrative demo testimonials &bull; Not genuine consumer reviews &bull;</span>
+        </div>
+
+        <div class="grid-3">
+          <div class="testimonial-card fade-in-scroll">
+            <div class="testimonial-stars" aria-label="5 stars rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">
+              "The haircut consultation was thorough and thoughtful. My stylist understood exactly how my natural waves fall and delivered a cut that requires minimal daily styling."
+            </p>
+            <div class="testimonial-author">
+              <strong>Ananya S.</strong>
+              <span>Demo Review &bull; Precision Haircut Client</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in-scroll">
+            <div class="testimonial-stars" aria-label="5 stars rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">
+              "The balayage transition was seamlessly blended. The salon environment is calm, tasteful, and luxurious. Highly recommended for subtle, high-end colouring."
+            </p>
+            <div class="testimonial-author">
+              <strong>Priya R.</strong>
+              <span>Demo Review &bull; Balayage Client</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-in-scroll">
+            <div class="testimonial-stars" aria-label="5 stars rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">
+              "Clean fades, attentive beard detailing, and polite staff. A refined salon experience that respects your appointment time."
+            </p>
+            <div class="testimonial-author">
+              <strong>Vikram K.</strong>
+              <span>Demo Review &bull; Men's Grooming Client</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment CTA Banner -->
+    <section class="cta-banner">
+      <div class="container fade-in-scroll">
+        <span class="eyebrow" style="color: var(--color-champagne-gold);">Reserve Your Chair</span>
+        <h2>Ready for a Transformative Hair Experience?</h2>
+        <p>Book your personalized hair consultation or styling session today with our professional team.</p>
+        <div class="cta-banner-buttons">
+          <a href="contact.html" class="btn btn-primary">Book an Appointment</a>
+          <a href="tel:+919000000000" class="btn btn-secondary">Call +91 90000 00000</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <a href="index.html" class="logo-link">
+            <span class="logo-text">HAIR SALON</span>
+            <span class="logo-sub">Luxury Hair Studio</span>
+          </a>
+          <p>
+            Modern luxury hair salon committed to precision haircuts, couture hair colouring, nourishing hair spas, and refined men's grooming in Hyderabad.
+          </p>
+          <div style="font-size: 0.8rem; color: var(--color-soft-taupe);">
+            Demo Portfolio Website &bull; Built with HTML5, CSS3, &amp; Vanilla JavaScript
+          </div>
+        </div>
+
+        <div class="footer-col footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services Catalogue</a></li>
+            <li><a href="packages-gallery.html">Packages &amp; Gallery</a></li>
+            <li><a href="contact.html">Contact &amp; Booking</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-links">
+          <h4>Services Menu</h4>
+          <ul>
+            <li><a href="haircut-styling.html">Haircut &amp; Styling</a></li>
+            <li><a href="hair-colouring.html">Hair Colouring &amp; Balayage</a></li>
+            <li><a href="hair-treatments.html">Hair Spa &amp; Nourishment</a></li>
+            <li><a href="hair-treatments.html">Keratin &amp; Smoothening</a></li>
+            <li><a href="services.html">Men's Grooming &amp; Beard</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact &amp; Hours</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Main Road, Hyderabad, Telangana, India</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+919000000000">+91 90000 00000 (Sample Demo)</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:demo@example.com">demo@example.com</a>
+          </div>
+          <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+            <div class="footer-hours-row">
+              <span>Mon â€“ Sun:</span>
+              <span>10:00 AM â€“ 8:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 HAIR SALON. All rights reserved. Text logo &amp; brand: HAIR SALON.
+        </div>
+        <div>
+          <span>Demonstration purposes only. Illustrative sample prices and bookings.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
